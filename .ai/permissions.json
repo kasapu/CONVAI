@@ -1,0 +1,57 @@
+{
+  "repository": "kasapu/CONVAI",
+  "license": "MIT",
+  "ai_access_permissions": {
+    "read_access": true,
+    "code_analysis": true,
+    "pattern_learning": true,
+    "suggestion_generation": true,
+    "documentation_assistance": true,
+    "testing_assistance": true
+  },
+  "permitted_ai_tools": [
+    {
+      "name": "Claude Code",
+      "provider": "Anthropic",
+      "access_level": "full",
+      "restrictions": []
+    },
+    {
+      "name": "OpenAI Codex",
+      "provider": "OpenAI", 
+      "access_level": "full",
+      "restrictions": []
+    },
+    {
+      "name": "CodeGuide",
+      "provider": "Various",
+      "access_level": "full", 
+      "restrictions": []
+    },
+    {
+      "name": "GitHub Copilot",
+      "provider": "GitHub",
+      "access_level": "full",
+      "restrictions": []
+    }
+  ],
+  "usage_terms": {
+    "attribution_required": false,
+    "commercial_use": true,
+    "modification": true,
+    "distribution": true,
+    "training_data_usage": true
+  },
+  "guidelines": {
+    "respect_license_terms": true,
+    "maintain_code_quality": true,
+    "include_appropriate_testing": true,
+    "follow_existing_patterns": true,
+    "document_changes": true
+  },
+  "contact": {
+    "maintainer": "Kranti Asapu",
+    "repository_url": "https://github.com/kasapu/CONVAI",
+    "issues_url": "https://github.com/kasapu/CONVAI/issues"
+  }
+}
