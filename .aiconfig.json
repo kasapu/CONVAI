@@ -1,0 +1,37 @@
+{
+  "name": "CONVAI AI Assistant Configuration",
+  "version": "1.0.0",
+  "description": "Configuration for AI code assistants working with the CONVAI project",
+  "ai_assistant_config": {
+    "enabled": true,
+    "welcome_message": "Welcome to CONVAI! This project is designed to work seamlessly with AI code assistants.",
+    "permissions": {
+      "code_generation": true,
+      "code_analysis": true,
+      "documentation_generation": true,
+      "test_generation": true,
+      "refactoring_suggestions": true,
+      "performance_optimization": true
+    },
+    "guidelines": {
+      "follow_mit_license": true,
+      "maintain_code_quality": true,
+      "include_tests": true,
+      "document_changes": true,
+      "respect_existing_patterns": true
+    },
+    "supported_assistants": [
+      "claude-code",
+      "openai-codex", 
+      "github-copilot",
+      "codeguide",
+      "ai-coding-assistant"
+    ]
+  },
+  "project_info": {
+    "type": "conversational-ai",
+    "primary_language": "to-be-determined",
+    "ai_friendly": true,
+    "collaboration_model": "human-ai-partnership"
+  }
+}
